@@ -89,12 +89,31 @@ li {
 	color:hsla(277, 64%, 61%, 0.5);
 }
 
-/*@media screen and (min-width: 375px) {
-	body {
+@media screen and (min-width: 375px) {
+	/*body {
 		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}*/
+	.card {
+		display: flex;
+		flex-direction: row-reverse;
+		max-width: 1000px;
 	}
 
 	img {
-		width: 50vw;
+		flex-basis: 500px;
+		width: 50%;
+		border-radius: 0 7px 7px 0;
+	/*	flex-flow: flex-left;*/
 	}
-}*/
+
+ 	.card-info{
+ 		flex-basis: 250px;
+ 	}
+
+	.stats-tab {
+		flex-basis: 250px;
+
+	}
+}
