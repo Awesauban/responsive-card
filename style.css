@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(233, 47%, 7%);
+    margin: 0px;
+    padding: 1rem;
+}
+
+.card {
+    max-width: 1000px;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 7px;
+}
+
+img {
+    opacity: 0.3;
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.card-info {
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.page-info {
+	color: hsl(0, 0%, 100%);
+	font-family: inter, sans-serif;
+	font-weight: 700;
+	font-size: 2.1875rem
+}
+
+#insights {
+	color:hsl(277, 64%, 61%);
+	font-family: inter, sans-serif;
+	font-weight: 700;
+}
+
+.subpage-info {
+	color: hsla(0, 0%, 100%, 0.75);
+	font-family: "inter", sans-serif;
+	font-weight: 400;
+	font-size: 0.9375rem;
+	line-height: 1.7;
+	margin: 2rem 0px;
+}
+
+.stats-tab {
+	text-align: center;
+}
+
+.info {
+	font-size: 1.2rem; 
+	padding: 1.5rem;
+}
+
+li {
+	color: hsl(0, 0%, 100%);
+	font-family: inter, sans-serif;
+	font-weight: 700;
+	list-style-type: none;
+}
+
+.stats-text {
+	color: hsl(0, 0%, 100%, 0.75);
+	font-family: "Lexend Deca", sans-serif;
+	font-weight: 400;
+	font-variant: small-caps;
+	letter-spacing: 1px;
+}
+.attribution { 
+	font-size: 11px;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 0.75);
+    letter-spacing: 0.5px;
+    margin-top: 2rem;
+    padding: 10px;
+}
+
+.attribution a { 
+	color:hsla(277, 64%, 61%, 0.5);
+}
+
+/*@media screen and (min-width: 375px) {
+	body {
+		flex-direction: row;
+	}
+
+	img {
+		width: 50vw;
+	}
+}*/
